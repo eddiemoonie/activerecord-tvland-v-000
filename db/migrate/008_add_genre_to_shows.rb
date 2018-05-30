@@ -1,5 +1,5 @@
-class AddCatchphraseToCharacter < ActiveRecord::Migration[4.2]
+class AddGenreToShows < ActiveRecord::Migration[4.2]
   def change
-    add_column :genre
+    add_column :shows, :genre, :string
   end
 end
